@@ -59,7 +59,7 @@ jobs:
       - name: Checkout kustomize repository
         uses: actions/checkout@v2
         with:
-          repository: /kube-k8s-manifest-repo
+          repository: anikaKn/kube-k8s-manifest-repo
           ref: main
           token: ${{ secrets.ACTION_TOKEN }}
           path: kube-k8s-manifest-repo
